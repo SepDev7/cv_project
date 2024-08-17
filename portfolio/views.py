@@ -30,6 +30,4 @@ def contact_view(request):
         except Exception as e:
             messages.error(request, 'There was an error sending your message. Please try again later.')
 
-        # return redirect('contact')
-
     return render(request, 'portfolio/index.html')
