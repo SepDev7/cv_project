@@ -24,13 +24,13 @@ def contact_view(request):
                 subject=subject,
                 message=email_message,
                 from_email=settings.DEFAULT_FROM_EMAIL, 
-                recipient_list=['sepehrhero77@gmail.com'],  
+                recipient_list=['sepehr779977@yahoo.com'],  
                 fail_silently=False,
             )
             messages.success(request, 'Your message has been sent. Thank you!')
         except Exception as e:
             messages.error(request, 'There was an error sending your message. Please try again later.')
 
-        return redirect('home')  # Adjust this if you have a different view for the homepage
+        return redirect('home')  
 
     return render(request, 'portfolio/index.html')
