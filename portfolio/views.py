@@ -5,6 +5,9 @@ from django.contrib import messages
 def home(request):
     return render(request, 'portfolio/index.html')
 
+def portfolio_details(request):
+    return render(request, 'portfolio/portfolio-details.html')
+
 def contact_view(request):
     if request.method == 'POST':
         name = request.POST.get('name')
@@ -27,6 +30,6 @@ def contact_view(request):
         except Exception as e:
             messages.error(request, 'There was an error sending your message. Please try again later.')
 
-        return redirect('contact')
+        # return redirect('')
 
-    return render(request, 'contact.html')
+    return render(request, 'portfolio/index.html')

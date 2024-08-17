@@ -417,7 +417,7 @@
                   <h4>Art 1</h4>
                   <p>Rosetta</p>
                   <a href="{% static 'portfolio/img/portfolio/art-1.jpg' %}" title="Art 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="portfolio_details/" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -787,7 +787,7 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="{% url 'contact' %}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="{% url 'contact' %}" method="post" class="django-email-form" data-aos="fade-up" data-aos-delay="200">
                 {% csrf_token %}
                 <div class="row gy-4">
         
