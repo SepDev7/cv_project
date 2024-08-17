@@ -558,12 +558,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Working with Sepehr has been an exceptional experience. Their dedication, skill in Backend development, and unwavering work ethic consistently deliver outstanding results.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'portfolio/img/testimonials/testimonials-1.jpg' %}" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Sina Asghari</h3>
+                <h4>Fullstack Developer</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -571,12 +571,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Sepehr is not only a responsible and focused professional but also deeply considerate of their colleagues. Their thoughtfulness and commitment to excellence make them an invaluable team member.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'portfolio/img/testimonials/testimonials-2.jpg' %}" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Mahta Hosseini</h3>
+                <h4>Digital Marketer</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -584,38 +584,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Sepehr brings incredible energy to everything they do, always delivering projects on time with meticulous attention to detail. They're fair with pricing, making them a reliable and trustworthy friend and professional.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <img src="{% static 'portfolio/img/testimonials/testimonials-3.jpg' %}" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="{% static 'portfolio/img/testimonials/testimonials-4.jpg' %}" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-                <img src="{% static 'portfolio/img/testimonials/testimonials-5.jpg' %}" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>Arman Ghobadi</h3>
+                <h4>Customer Services</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -672,40 +646,40 @@
           </div>
 
           <div class="col-lg-7">
-            <form action="{% url 'contact' %}" method="post" class="django-email-form" data-aos="fade-up" data-aos-delay="200">
-                {% csrf_token %}
-                <div class="row gy-4">
-        
-                    <div class="col-md-6">
-                        <label for="name-field" class="pb-2">Your Name</label>
-                        <input type="text" name="name" id="name-field" class="form-control" required="">
-                    </div>
-        
-                    <div class="col-md-6">
-                        <label for="email-field" class="pb-2">Your Email</label>
-                        <input type="email" class="form-control" name="email" id="email-field" required="">
-                    </div>
-        
-                    <div class="col-md-12">
-                        <label for="subject-field" class="pb-2">Subject</label>
-                        <input type="text" class="form-control" name="subject" id="subject-field" required="">
-                    </div>
-        
-                    <div class="col-md-12">
-                        <label for="message-field" class="pb-2">Message</label>
-                        <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
-                    </div>
-        
-                    <div class="col-md-12 text-center">
-                        <!-- <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
-         -->
-                        <button type="submit">Send Message</button>
-                    </div>
-        
-                </div>
-            </form>
+            <form action="{% url 'contact' %}" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              {% csrf_token %}
+              <div class="row gy-4">
+          
+                  <div class="col-md-6">
+                      <label for="name-field" class="pb-2">Your Name</label>
+                      <input type="text" name="name" id="name-field" class="form-control" required>
+                  </div>
+          
+                  <div class="col-md-6">
+                      <label for="email-field" class="pb-2">Your Email</label>
+                      <input type="email" class="form-control" name="email" id="email-field" required>
+                  </div>
+          
+                  <div class="col-md-12">
+                      <label for="subject-field" class="pb-2">Subject</label>
+                      <input type="text" class="form-control" name="subject" id="subject-field" required>
+                  </div>
+          
+                  <div class="col-md-12">
+                      <label for="message-field" class="pb-2">Message</label>
+                      <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+                  </div>
+          
+                  <div class="col-md-12 text-center">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+          
+                      <button type="submit">Send Message</button>
+                  </div>
+          
+              </div>
+            </form>          
           </div>        
 
         </div>
@@ -716,22 +690,7 @@
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-
-  </footer>
+  <footer id="footer" class="footer position-relative light-background"></footer>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
