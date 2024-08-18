@@ -9,6 +9,9 @@ def home(request):
 def portfolio_details(request):
     return render(request, 'portfolio/portfolio-details.html')
 
+def portfolio_details_2(request):
+    return render(request, 'portfolio/portfolio-details-2.html')
+
 def contact_view(request):
     if request.method == 'POST':
         name = request.POST.get('name')
